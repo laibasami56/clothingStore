@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <div>
+                    <li><a href="sign-up.html">SIGN IN</a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i></a></li>
+                    <li><a href="#">TRACKING INFO</a></li>
+                    <li><a href="#">CORPORATE INQUIRY</a></li>
+                </div>
+                <div>
+                    <li><img src="image/logo.webp" alt="logo" class="logo"  ></li>
+                </div>
+                <div>
+                    <li class="icon"><a href="#" class="li2"><i class="fas fa-shopping-bag"></i></a></li>
+                    <li class="search">
+                        <button type="submit" class="li1"><i class="fas fa-search"></i> SEARCH</button>
+                    </li>
+                </div>
+            </ul>
+
+
+            <div>
+                <ul class="navbar">
+                    <div>
+                        <li class="dropdown"><a href="#">NEW ARRIVALS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> MONSOON COLLECTION '24</a></li>
+                                <li><a href="#">Unstitched Collection</a></li>
+                                <li><a href="#">Stitched Collection</a></li>
+
+                                <li><a href="#">Women Kurti</a></li>
+                                <li><a href="#">Teen Girls </a></li>
+                                <li><a href="#">Kid Girls</a></li>
+                            </ul>
+
+                        </li>
+                    </div>
+
+                    <div>
+                        <li class="dropdown"><a href="about.html">About</a>
+                         
+                        </li>
+                    </div>
+                    <div>
+                        <li class="dropdown">
+                            <a href="#WOMEN">WOMEN</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#" >Unstitched</a></li>
+                                <li><a href="#">Kurti</a></li>
+                                <li><a href="#">Stitched</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="dropdown" >
+                            <a href="#MEN">MEN</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Kurta</a></li>
+                                <li><a href="#">Waistcoat</a></li>
+                                <li><a href="#">Kameez Shalwar</a></li>
+                            </ul>
+                        </li>
+                    </div>
+                    <div>
+                        <li class="dropdown">
+                            <a href="#">BOYS & GIRLS</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Infant</a></li>
+                                <li><a href="#">Infant Girls</a></li>
+                                <li><a href="#">Infant Boys</a></li>
+                            </ul>
+                        </li>
+                    </div>
+
+                    <div>
+                        <li class="dropdown"><a href="#">FRAGRANCES</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#"> Attar</a></li>
+                                <li><a href="#"> Gift Set</a></li>
+                                <li><a href="#"> Perfume</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">MAKEUP</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Blusher</a></li>
+                                <li><a href="#">Cream & Foundation </a></li>
+                                <li><a href="#"> Other</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown"><a href="#">CATALOGUE</a>
+                        </li>
+
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Slider -->
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/images.jpeg" alt="Los Angeles" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+                <img src="image/fnc1_26.webp" alt="Chicago" class="d-block w-100" style=" height: 60vh ;width: 98vw ;">
+            </div>
+
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+    <!-- Cards -->
+ 
+    <div class="container1">
+    
+            <h1 id="WOMEN">WOMEN</h1>
+    
+        <div class="large-card">
+            <img src="image/images (1).jpeg" alt="Large Image">
+        </div>
+        <div class="small-cards">
+            <div class="small-card">
+                <img src="image/images (2).jpeg" alt="Small Image 1">
+            </div>
+            <div class="small-card">
+                <img src="image/images (3).jpeg" alt="Small Image 2">
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container1">
+        <h1 id="MEN">MEN</h1>
+
+        <div class="large-card">
+            <img src="image/images (4).jpeg" alt="Large Image">
+        </div>
+        <div class="small-cards">
+            <div class="small-card">
+                <img src="image/images (5).jpeg" alt="Small Image 1">
+            </div>
+            <div class="small-card">
+                <img src="image/images (6).jpeg" alt="Small Image 2">
+            </div>
+        </div>
+    </div>
+    
+ <!-- Other content of the page -->
+
+ <footer>
+    <div class="footer-container">
+        <div class="footer-section">
+            <h3>About Us</h3>
+            <p>Discover our story and values. We are committed to providing high-quality clothing and exceptional customer service.</p>
+            <a href="#" class="footer-link">Read More</a>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:support@clothingstore.com">support@clothingstore.com</a></p>
+            <p>Phone: <a href="tel:+1234567890">(123) 456-7890</a></p>
+            <a href="#" class="footer-link">Get in Touch</a>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="#" class="social-icon">FB</a>
+                <a href="#" class="social-icon">TW</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">YT</a>
+                <a href="#" class="social-icon">LI</a>
+            </div>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul class="quick-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Legal</h3>
+            <ul class="legal-links">
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Returns & Exchanges</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Clothing Store. All rights reserved.</p>
+    </div>
+</footer>
+
+    
+    
+
+   
+
+</body>
+
+</html>
